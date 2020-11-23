@@ -6,6 +6,9 @@
 body {
   font-family: var(--main-font);
 }
+ul {
+  list-style: none;
+}
 .address {
   font-style: normal;
 }
@@ -149,4 +152,8 @@ body {
   line-height: 1.875;
   letter-spacing: 0.03em;
   color: #757575;
+}
+.button-filter:hover,
+.button-filter:focus {
+  color: #ffffff;
 }
