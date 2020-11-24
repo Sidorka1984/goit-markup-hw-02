@@ -6,6 +6,9 @@
 body {
   font-family: var(--main-font);
 }
+a {
+  text-decoration: none;
+}
 ul {
   list-style: none;
 }
@@ -28,7 +31,7 @@ ul {
   font-size: 26px;
   line-height: 1.192;
   letter-spacing: 0.03em;
-  /*color: #ffffff;*/
+  color: #ffffff;
 }
 .logo-accent {
   color: var(--accent-color);
@@ -42,12 +45,17 @@ ul {
   letter-spacing: 0.02em;
   color: #212121;
 }
-.menu-link:hover,
-.menu-link:focus,
+.menu-item .is-current:hover,
+.menu-item .is-current:focus,
 .header-mail:hover,
 .header-mail:focus,
 .header-tel:hover,
-.header-tel:focus {
+.header-tel:focus,
+.menu-link:hover,
+.menu-link:focus {
+  color: var(--accent-color);
+}
+.menu-item .is-current {
   color: var(--accent-color);
 }
 
@@ -61,13 +69,16 @@ ul {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.363;
-  /*color: #ffffff;*/
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: #2f303a;
 }
 .hero-button {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.875;
-  /*color: #ffffff;*/
+  color: #ffffff;
+  background-color: var(--accent-color);
 }
 /*===================end hero==============*/
 
@@ -119,6 +130,9 @@ ul {
   font-weight: 400;
   color: #757575;
 }
+.dark {
+  background-color: #2f303a;
+}
 .address-position,
 .footer-mail,
 .footer-tel {
@@ -126,11 +140,11 @@ ul {
   font-size: 14px;
   line-height: 1.714;
   letter-spacing: 0.03em;
-  /*color: #ffffff;*/
+  color: #ffffff;
 }
 .footer-mail,
 .footer-tel {
-  /* color: rgba(255, 255, 255, 0.6);*/
+  color: rgba(255, 255, 255, 0.6);
 }
 .btn-portfolio {
   font-weight: 500;
@@ -156,4 +170,5 @@ ul {
 .button-filter:hover,
 .button-filter:focus {
   color: #ffffff;
+  background-color: var(--accent-color);
 }
