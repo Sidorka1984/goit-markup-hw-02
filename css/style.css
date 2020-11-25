@@ -71,6 +71,8 @@ ul {
   line-height: 1.363;
   text-transform: uppercase;
   color: #ffffff;
+}
+.hero {
   background-color: #2f303a;
 }
 .hero-button {
