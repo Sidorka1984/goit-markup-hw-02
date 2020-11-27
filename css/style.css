@@ -125,6 +125,9 @@ ul {
 }
 /*===================end это мы=============*/
 /*===================команда ================*/
+.teams {
+  background-color: #f5f4fa;
+}
 .teams-persons,
 .persons-job {
   font-weight: 500;
